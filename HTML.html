@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>html</title>
+    <style>
+        table {
+            border-style: solid;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border-color: aqua;
+        }
+
+        tr {
+            border-style: solid;
+            border-color: rgb(74, 107, 107);
+
+        }
+
+        h1 {
+            border: 4px solid green;
+            padding: 12px 13px;
+            background-color: khaki;
+            margin: 12px auto;
+            font-size: 30px;
+            font-style: italic;
+            line-height: 1.em;
+            font-weight: bold;
+            border-radius: 10px;
+            /* text-align: right; */
+            /* text-align: left; */
+            text-align: center;
+            /* text-align: justify; */
+        }
+
+        p {
+            border-color: black;
+            border-radius: 10px;
+            border: 4px solid grey;
+            padding: 12px;
+            margin: auto;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            width: 900px;
+            border: 3px solid goldenrod;
+            margin: 33px auto;
+            background-color: rgb(167, 164, 175);
+            color: rgb(168, 11, 11);
+        }
+
+        #fruit {
+            float: left;
+            width: 50%;
+        }
+
+        #computer {
+            float: right;
+            width: 50%;
+        }
+
+        #stationary {
+            /* float: left; */
+            width: 100%;
+            clear: both;
+        }
+        /* a{
+            text-decoration: none;
+        }
+        a:hover{
+            color: black;
+            background-color: chocolate;
+        }
+        a:visited{
+            color:green;
+            background-color: coral;
+        }
+        a:active{
+            background-color: cyan;
+        } */
+        .Container{
+            width: 900px;
+            border: 3px solid rgb(78, 20, 126);
+            margin: 33px auto;
+            background-color: rgb(163, 102, 136);
+            color: rgb(168, 11, 11);
+            padding: 34px auto;
+        }
+        .btn{
+            background-color: lightgray;
+            color: mediumblue;
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 34px;
+            border-radius: 4px;
+        }
+        .btn:hover{
+            background-color: darkmagenta;
+        }
+        .navbar{
+            background-color: goldenrod;
+            border-radius: 4px;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+        }
+        .navbar input{
+            float:right;
+            width: 125%;
+            height: 5%;
+            background-position: 122px 133px;
+            padding-top: 2px;
+            border-radius: 4px;
+        }
+        .search{
+            padding: 12px 75px;
+            float:right;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                
+                <li><a href="#">Contuct us</a></li>
+                <li><a href="#">Login</a></li>
+                <div class="search">
+                    <input type="text" name="search" placeholder="searchbox">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <div class="Container">
+        <h1>This is my first website</h1>
+        
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Ducimus quidem facere vel quam quisquam perspiciatis dolores eligendi impedit ex maxime expedita
+            deserunt officia non, rerum dignissimos! Asperiores modi molestiae animi. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Fugit soluta dolores, aliquam quidem dolore similique quibusdam nobis nesciunt
+            tempore a eaque amet sint deserunt provident odit laboriosam voluptatem! Animi consequatur aliquid ipsum
+            odio!
+            Doloremque?
+        </p>
+        <a href="http://google.com" class="btn" target="_blank">Read more</a>
+        <button class="btn">Contact us</button>
+    </div>
+    <div class="container">
+        <div id="fruit">
+            <h3>Fruit container</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ipsum aperiam, soluta at natus ullam
+                corporis quisquam molestias distinctio laudantium, tempora facere optio amet dolor veniam ducimus
+                tenetur quia laboriosam.</p>
+        </div>
+        <div id="computer">
+            <h3>Computer container</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ipsum aperiam, soluta at natus ullam
+                corporis quisquam molestias distinctio laudantium, tempora facere optio amet dolor veniam ducimus
+                tenetur quia laboriosam.</p>
+
+
+        </div>
+        <div id="stationary">
+            <h3>Stationary container</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure ipsum aperiam, soluta at natus ullam
+                corporis quisquam molestias distinctio laudantium, tempora facere optio amet dolor veniam ducimus
+                tenetur quia laboriosam.</p>
+        </div>
+
+    </div>
+
+    <ul type="square">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>cherry</li>
+    </ul>
+    <ol type="I">
+        <li>Apple</li>
+        <li>Mango</li>
+        <li>Cherry</li>
+    </ol>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Rollno.</th>
+                <th>sub</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Mysha</td>
+                <td>01</td>
+                <td>Math</td>
+            </tr>
+            <tr>
+                <td>Zyna</td>
+                <td>02</td>
+                <td>Science</td>
+            </tr>
+            <tr>
+                <td>Manal</td>
+                <td>03</td>
+                <td>English</td>
+            </tr>
+        </tbody>
+    </table>
+    <form action="backend.php">
+        Name :<input type="text" name="mytext"><br>
+        Password :<input type="password" name="mypass"><br>
+        Email : <input type="text" name="myemail" id="email"><br>
+        Numbers : <input type="number" name="mynum"><br>
+        Date : <input type="date"><br>
+        Submit : <input type="submit" value="Submitnow" id="error"><br>
+        Reset : <input type="reset" value="Reset" id=""><br>
+        Are you eligible?: <input type="checkbox" name="eligible?" id=""><br>
+        Gender : Male <input type="radio" name="mygender" id="">Female: <input type="radio" name="mygender" id=""><br>
+        Write about your self: <textarea name="mytext" id="" cols="30" rows="10"></textarea><br>
+
+    </form>
+    <label for="name"></label>
+    <div>
+        Name: <input type="text" name="myname" id="name">
+    </div>
+    <label for="car">Cars</label>
+    <select name="mycar" id="car">
+        <option value="swf">Swift</option>
+        <option value="ind">Indica</option>
+    </select>
+
+
+
+</body>
+
+</html>
